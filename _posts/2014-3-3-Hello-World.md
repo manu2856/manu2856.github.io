@@ -1,10 +1,12 @@
 ---
 layout: post
-title: You're up and running!
+title: Data Science and Beyond!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Welcome!
+Join me during these following 10 months. Where I will be blogging about life in Vancouver and Data Science concepts, as I continue my journey
+as a student in the Master of Data Science program at UBC.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Stay tunned!
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![UBC_PIC](/images/Image_UBC.jpg "First Post")
