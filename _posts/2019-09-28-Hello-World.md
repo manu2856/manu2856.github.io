@@ -1,3 +1,9 @@
+---
+layout: post
+title: Data Science and Beyond!
+output: html_document
+---
+
 # ***To Trust or Not To Trust***
 ## Is your data trustworthy, or should it be verified and cleaned before you start working on any analysis?
 
@@ -40,20 +46,30 @@ You are provided with an excel sheet with the following information:
 * Cohort
 
 That looks like the following (All data is fictional):<br>
-<img src="images/Image_1.png" width=200 align="left">
+![I0](../images/Image_1.png "I0")
 
 When you start viewing data you discover certain things that don't  feel right. Lets understand each of the situations you encounter and see if they relate to the issues that should be cleaned up in your data before starting any analysis.
 
 #### **Escenario 1**
 
+![I1](../images/Image_2_duplicates.png "I1")
 
-<img src="images/Image_2_duplicates.png" width=180 align="left">
 
 In this example we can see ***Duplicates*** , which are data repetitions. In order to identify this type of anomaly, you should identify a unique key in your dataset and totalize counts per unique. Duplicates can be solved by filtering and just select a data point per unique key.
 In our example the student number is the unique key.
 
 #### **Escenario 2**
-<img src="images/Image_3_standarization.png" width=200 align="left">
+![I2](../images/Image_3_standarization.png "I2")
+
+
+
+
+
+
+
+
+
+
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
@@ -67,7 +83,7 @@ Refers to different values referring to the same event. For example we can ident
 
 
 #### **Escenario 3**
-<img src="images/Image_4_cohort.png" width=200 align="left">
+![I3](../images/Image_4_cohort.png "I3")
 <br/><br/><br/><br/><br/>
 
 In this example we can see ***irrelevant information*** to the problem trying to solve. For example information information from cohort 2018 at this time is irrelevant to want we need to answer. If working with huge data sets it can be helpful to filter just the data needed for the question trying to be answered. <br>
@@ -80,7 +96,7 @@ Anywaysm if you are in doubt if a piece of information can be helpful or not, it
 Lets imagine you rush in presenting results, without cleaning your data and you just attached the following image, and accidently click "Send" to your boss:
 <br/>
 
-<img src="images/Image_5_Rushing_Conclusions.png" width=350 align="left">
+![I5](../images/Image_5_Rushing_Conclusions.png "I5")
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 What is wrong with these numbers?
 
@@ -91,14 +107,15 @@ You immediately get an email from you boss, saying this type of conclusions are 
 
 
 He points out a series of cleaning actions you should do, with the following image:
-<img src="images/Image_6_Identifying_Anomalities.png" width=500 align="left">
+
+![I6](../images/Image_6_Identifying_Anomalities.png "I6")
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 You follow his recomendations and you get the new results:
 <br/><br/>
-<img src="images/Image_7_Result_Clean.png" width=500 align="left">
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+![I6](../images/Image_7_Result_Clean.png "I7")
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 Did you notice how results can change and also how your credibility can be kept intact with the help of data cleaning!
 
